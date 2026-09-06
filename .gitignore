@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+.venv/
+venv/
+ENV/
+
+# Binaries & Tunnels
+cloudflared.exe
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
