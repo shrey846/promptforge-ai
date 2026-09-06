@@ -1,3 +1,8 @@
 {
-  "cleanUrls": true
+  "buildCommand": "echo 'Static build complete'",
+  "outputDirectory": ".",
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
 }

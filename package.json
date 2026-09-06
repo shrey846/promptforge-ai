@@ -1,0 +1,9 @@
+{
+  "name": "promptforge-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PromptForge AI - The Ultimate Prompt Engineering Studio",
+  "scripts": {
+    "build": "echo 'Static build completed successfully'"
+  }
+}
