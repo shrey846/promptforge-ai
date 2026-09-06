@@ -38,6 +38,8 @@ def build():
         shutil.copy(BASE_DIR / "netlify.toml", DIST_DIR / "netlify.toml")
     if (BASE_DIR / "vercel.json").exists():
         shutil.copy(BASE_DIR / "vercel.json", DIST_DIR / "vercel.json")
+    if (BASE_DIR / "package.json").exists():
+        shutil.copy(BASE_DIR / "package.json", DIST_DIR / "package.json")
 
     with open(DIST_DIR / "_redirects", "w", encoding="utf-8") as f:
         f.write("/*    /index.html   200\n")
